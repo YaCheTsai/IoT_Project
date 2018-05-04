@@ -78,6 +78,7 @@ If pass, user can get the token and use it to get data from Gateway.
     // Shared secret key with gateway
     var gsu = '2000'
 ```
+
 4. Install geth
 ```sh
     https://gethstore.blob.core.windows.net/builds/geth-windows-amd64-1.8.2-b8b9f7f4.exe
@@ -90,16 +91,18 @@ If pass, user can get the token and use it to get data from Gateway.
     sudo npm install
 ```
 
-6. Construct mysql schema
-```sh
-    use SQL_Schema.sql
-```
-7.install list
+6. Install list
 ```sh
     pip install pycrypto
     pip install base58
     npm install --save sha256
 ```
+
+7. Construct mysql schema
+```sh
+    use SQL_Schema.sql
+```
+
 ### RUN
 1. start server
 2. start gateway
