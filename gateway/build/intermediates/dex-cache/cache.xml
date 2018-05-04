@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\gateway\app\libs\bcprov-jdk15on-157.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f66a135611d42c992e5745788c3f94eb06464537">
+        <dex dex="C:\gateway\app\build\intermediates\transforms\dex\debug\folders\1000\2\bcprov-jdk15on-157_16192f86271b33fd694761d36132277187738107\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\gateway\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="C:\gateway\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b7e605429031206b15b9da5fb581fec52290328f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\gateway\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="82b1d8aa629cbb61d9276f7d38469568b81a604d">
+        <dex dex="C:\gateway\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_10e9e10b50442d12968c834fe242b0e9baecbfae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\gateway\app\libs\mysql-connector-java-5.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="380ef5226de2c85ff3b38cbfefeea881c5fce09d">
+        <dex dex="C:\gateway\app\build\intermediates\transforms\dex\debug\folders\1000\2\mysql-connector-java-5.1.6_f93e28eda35af6f3bbf17c1efaf4920a701b41dd\classes.dex" />
+    </item>
+
+</items>

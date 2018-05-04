@@ -1,0 +1,37 @@
+{
+  "name": "iot_project_server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "ip": "^1.1.5",
+    "jade": "^1.11.0",
+    "js-sha3": "^0.5.7",
+    "jsonwebtoken": "^8.2.1",
+    "keccak": "^1.4.0",
+    "mariasql": "^0.2.6",
+    "mysql": "^2.15.0",
+    "node-cmd": "^3.0.0",
+    "node-datetime": "1.0.0",
+    "npm-install-global": "^1.0.0",
+    "reinstall": "^2.0.0",
+    "request": "^2.85.0",
+    "request-json": "^0.6.3",
+    "secp256k1": "^3.5.0",
+    "sha256": "^0.2.0"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

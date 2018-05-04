@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="功能選單"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+
+            <Button
+                android:id="@+id/bAuthorized_device"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#3949ab"
+                android:onClick="AuthorizedRole"
+                android:text="裝置管理"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/bBlutooth"
+                android:onClick="AddGateway"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3949ab"
+                android:layout_margin="5dp"
+                android:text="藍芽傳輸安全檢視"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+            <Button
+                android:id="@+id/bAuthorized_user_management"
+                android:onClick="AuthorizedUserManagement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3949ab"
+                android:layout_margin="5dp"
+                android:text="用戶管理"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

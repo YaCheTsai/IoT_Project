@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">IoT 可信賴架構之設計與實作</string>
+
+    <!-- Strings related to login -->
+    <string name="user_id">User ID</string>
+    <string name="user_password">Password</string>
+    <string name="register">註冊</string>
+    <string name="action_sign_in">登入</string>
+    <string name="forget_password">忘記密碼</string>
+
+    <!--Strings related to login error msg-->
+    <string name="error_invalid_account">This account is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">Contacts permissions are needed for providing email completions. </string>
+
+    <!-- Strings related to register -->
+    <string name="id"></string>
+    <string name="password"></string>
+    <string name="confirmationpassword"></string>
+    <string name="name"></string>
+    <string name="email"></string>
+    <string name="cancelBtn">取消</string>
+    <string name="submitBtn">確認</string>
+
+    <!-- Strings related to sensor -->
+    <string name="realtime">即時資料</string>
+    <string name="history">歷史資料</string>
+    <string name="privacy">隱私政策</string>
+    <string name="action_Signout">登出</string>
+    <string name="menu_page">功能選單</string>
+
+    <!-- Strings related to user management -->
+    <string name="authorized_user_management">用戶管理</string>
+    <string name="add_new_user">新增用戶權限</string>
+
+    <!-- Strings related to add new auth user -->
+    <string name="cancel_btn">Cancel</string>
+    <string name="next_step_btn">Next</string>
+
+    <string name="edit_authorized_user">編輯使用者權限</string>
+
+    <!-- Strings related to add new gateway -->
+    <string name="add_new_gateway">新增Gateway</string>
+    <string name="gateway_id">Gateway ID</string>
+
+    <!-- Strings related to role list -->
+    <string name="role_list">角色權限列表</string>
+
+
+</resources>
