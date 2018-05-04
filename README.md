@@ -8,7 +8,7 @@ If pass, user can get the token and use it to get data from Gateway.
 
 ### PRE SETTING
 
-* Install python , node first!
+* Install python , node first! 
 * If you use Windows need npm install --global --production windows-build-tools
 
 1. Setting gateway/app/src/main/java/liutzuyuan/gateway/Setting.java
@@ -78,17 +78,28 @@ If pass, user can get the token and use it to get data from Gateway.
     // Shared secret key with gateway
     var gsu = '2000'
 ```
-4. Install node package
+4. Install geth
+```sh
+    https://gethstore.blob.core.windows.net/builds/geth-windows-amd64-1.8.2-b8b9f7f4.exe
+    then type this command line "geth init genesis.json --datadir Keychain " on your server location 
+```
+
+5. Install node package
 ```sh
     cd server/
     sudo npm install
 ```
 
-5. Construct mysql schema
+6. Construct mysql schema
 ```sh
     use SQL_Schema.sql
 ```
-
+7.install list
+```sh
+    pip install pycrypto
+    pip install base58
+    npm install --save sha256
+```
 ### RUN
 1. start server
 2. start gateway
